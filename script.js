@@ -2,8 +2,8 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
     "/"];
 
 const generateBtn = document.getElementById("generateBtn")
-const feild1 = document.getElementById("password1")
-const feild2 = document.getElementById("password2")
+const field1 = document.getElementById("password1")
+const field2 = document.getElementById("password2")
 
 
 
@@ -16,8 +16,8 @@ function getRandomPass() {
 }
 
 function displayFunction() {
-    feild1.innerText = getRandomPass()
-    feild2.innerText = getRandomPass()
+    field1.innerText = getRandomPass()
+    field2.innerText = getRandomPass()
 }
 
 generateBtn.addEventListener("click", displayFunction)
